@@ -7,11 +7,11 @@ api = KaggleApi()
 api.authenticate()
 
 # Download the Kaggle dataset
-dataset_name = 'dataset-name'  # Replace with the name of the Kaggle dataset you want to download
-api.dataset_download_files(dataset_name, path='kaggle_data', unzip=True)
+dataset_name = 'lkihjh777'  # Replace with the name of the Kaggle dataset you want to download
+api.dataset_download_files('lkihjh777', path='D:\Kaggle dataset archive.zip', unzip=True)
 
 # Path to the downloaded dataset
-dataset_path = 'kaggle_data'  # Path to the extracted dataset files
+dataset_path = 'D:\Kaggle dataset archive.zip'  # Path to the extracted dataset files
 
 # Iterate over the downloaded images
 for file_name in os.listdir(dataset_path):
